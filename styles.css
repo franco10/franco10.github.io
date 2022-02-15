@@ -97,9 +97,11 @@ img {
     margin-bottom: 6rem;
 }
 .project {
-    background: rgb(1, 90, 102);
-    background: linear-gradient(45deg, rgb(1, 90, 102), rgb(0, 81, 255));
-    border-radius: 10px;
+    /*background: linear-gradient(45deg, rgb(1, 90, 102), rgb(0, 81, 255));*/
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 3px;
 }
 .project-image {
     height: calc(100% - 6.8rem);
@@ -125,6 +127,7 @@ img {
     height: 80vh;
     padding: 0 2rem;
     background: rgb(43, 43, 43);
+    height: 100vh;
 }
 .contact-section-header > h2 {
     font-size: 6rem;
