@@ -1,28 +1,27 @@
-html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 65%;
     scroll-behavior: smooth;
-    background: black;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 @media (max-width: 70em) {
-    html {
+    * {
         font-size: 50%;
     }
 }
 @media (max-width: 60em) {
-    html {
+    * {
         font-size: 40%;
     }
 }
 @media (max-width: 30em) {
-    html {
+    * {
         font-size: 30%;
     }
 }
 body {
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 1;
@@ -40,11 +39,14 @@ h2 {
 }
 ul {
     list-style: none;
+    padding-top: 8px;
+    padding-bottom: 3px;
 }
 a {
     text-decoration: none;
     color: white;
     padding: 30px;
+    font-size: 2.5rem;
 }
 img {
     display: block;
@@ -57,7 +59,8 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: black;
+    background: rgb(0, 19, 59);
+    z-index: 1;
 }
 .nav-list {
     display: flex;
@@ -70,6 +73,8 @@ img {
     align-items: center;
     width: 100%;
     height: 100vh;
+    background: rgb(0, 81, 255);
+    /*background: linear-gradient(45deg, black, rgb(0, 36, 114), rgb(0, 81, 255), rgb(0, 48, 153));*/
     background: linear-gradient(45deg, black, rgb(0, 81, 255), rgb(0, 170, 248));
 }
 .welcome-section > p {
@@ -81,7 +86,8 @@ img {
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: rgb(0, 36, 114);
+    background: rgb(0, 81, 255);
+    /*background: linear-gradient(45deg, black, rgb(0, 36, 114), rgb(0, 81, 255), rgb(0, 48, 153));*/
 }
 .projects-section-header {
     max-width: 640px;
@@ -97,7 +103,6 @@ img {
     margin-bottom: 6rem;
 }
 .project {
-    /*background: linear-gradient(45deg, rgb(1, 90, 102), rgb(0, 81, 255));*/
     background-color: #ffffff10;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
