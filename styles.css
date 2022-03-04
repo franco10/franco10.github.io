@@ -73,7 +73,6 @@ img {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: rgb(0, 81, 255);
     /*background: linear-gradient(45deg, black, rgb(0, 36, 114), rgb(0, 81, 255), rgb(0, 48, 153));*/
     background: linear-gradient(45deg, black, rgb(0, 81, 255), rgb(0, 170, 248));
 }
@@ -86,7 +85,7 @@ img {
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: rgb(0, 81, 255);
+    background: rgb(0, 57, 180);
     /*background: linear-gradient(45deg, black, rgb(0, 36, 114), rgb(0, 81, 255), rgb(0, 48, 153));*/
 }
 .projects-section-header {
